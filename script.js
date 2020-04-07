@@ -111,14 +111,17 @@
 
 var massMark = 96;
 var heightMark = 74;
-var bmiMark = massMark / (heightMark * heightMark);
-console.log(bmiMark);
+
 
 var massJohn = 115;
 var heightJohn = 70;
-var bmiJohn = massJohn / (heightJohn * heightJohn);
-console.log(bmiJohn);
 
-var bmiJohn, bmiMark;
-console.log()
+var bmiJohn = massJohn / (heightJohn * heightJohn);
+var bmiMark = massMark / (heightMark * heightMark);
+
+var markHigherBMI = bmiMark > bmiJohn;
+console.log('Is Mark\s BMI higher than john\s' + markHigherBMI);
+
+
+
  
